@@ -1,9 +1,5 @@
-var foo = {
-    bar: 1,
-    baz: 2
-};
+var tenses = ['me', 'you', 'he'];
+var [firstPerson, secondPerson] = tenses;
 
-var { bar, baz } = foo;
-
-console.log(`bar 
-    baz`);
+console.log(`${firstPerson}
+${secondPerson}`);

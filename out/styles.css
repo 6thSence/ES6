@@ -1,0 +1,29 @@
+html,
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.wrap {
+    display: flex;
+    width: 90%;
+    height: 90%;
+    margin: auto auto;
+    text-align: center;
+    background: #2ecc71;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-family: 'Arimo', sans-serif;
+    font-size: 24pt/1;
+    display: inline-block;
+    vertical-align: center;
+    color: #fffbe7;
+}
